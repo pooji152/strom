@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+    </head>
+    <header id="header" class="navigation-wrapper js-stick-always"> 
+        <nav id="navigation" class="navigation">
+            <ul class="main-menu container">
+               <li class="menu">
+                  <a href="#" class="js-submenu-toggle js-slider-submenu">
+                     <span class="svicon-menu" aria-hidden="true"></span>
+                     <img width="30px" height="30" src="images/menu.svg" alt="menu" title="menu"><br>
+                     <span class="nav-text">Menü</span>
+                  </a>
+                  
+               </li>
+               <li class="menu-logo">
+                  <a href="" title="Stromvergleich"> 
+                     <span class="title"> 
+                            <img width="35px" height="35" src="images/stromvergliech.svg?1ohokz" alt="Stromvergleich" title="Kostenloser Stromvergleich">
+                         <span>Stromvergleich.de</span> </span> 
+                         <span class="subtitle">kostenloser Stromvergleich und Wechselservice</span> </a>
+                  <div class="mobile-links">
+                     <span class="js-mobile-link" data-link="hotline-mobile">Hotline</span> 
+                     <span class="js-mobile-link" data-link="chat">Chat</span> 
+                     <span class="js-mobile-link" data-link="search">Suche</span></div>
+               </li>
+               <li class="menu-hotline">
+                  <a href="tel:035188880430" style="padding-bottom: 0px;"> 
+                     <span class="title"> <span class="svicon-phone" aria-hidden="true"></span> 
+                     <img width="30px" height="30" src="images/phone.svg" alt="Stromvergleich" title="Kostenloser Stromvergleich">
+                     <span>0351 8888 0430</span> </span> </a>
+                     <span class="subtitle"> Ihre Presönaliche Stromwechselhotline </span>
+                </li>
+               <li class="ekomi-widget">
+                  <a class="ekomi" href="" target="_blank" rel="noopener nofollow" itemscope="" itemtype="">
+                     <div class="ekomi-rating with-text">
+                        <div class="ekomi-stars">
+                             
+                            <span class="fa fa-star checked" style="color:#FFA000"></span>
+                            <span class="fa fa-star checked" style="color:#FFA000"></span>
+                            <span class="fa fa-star checked" style="color:#FFA000"></span>
+                            <span class="fa fa-star" style="color:#FFA000"></span>
+                            <span class="fa fa-star" style="color:#FFA000"></span>
+                          
+                        </div>
+                        <span class="ekomi-text">Exzellent</span> 
+                      </div>
+                     <img src="images/gold.png" width="70" height="70" alt="Siegel eKomi" title="Siegel eKomi">
+                  </a>
+               </li>
+               <li class="menu-search">
+                  <a href="#" class="js-submenu-toggle">
+                    <span class="svicon-search" aria-hidden="true"></span>
+                    <img width="30px" style="fill:#4CAF50;" height="30" src="images/search.svg" alt="search" title=" Search">
+                    <span class="sr-only">Suche</span>
+                </a>
+                  
+               </li>
+               <li class="menu-hotline-mobile">
+                  <a href="#" class="js-submenu-toggle"><span class="sr-only">Ihre persönliche Stromwechselhotline</span></a>
+                  <div class="submenu">
+                     <button type="button" class="js-submenu-toggle close-menu"><span class="svicon-arrow2"></span></button>
+                     <div class="container"><a href="tel:035188880430"> <span class="svicon-phone" aria-hidden="true"></span> <span class="phone-nr">0351 8888 0430</span> </a></div>
+                  </div>
+               </li>
+               <li class="menu-chat">
+                    <a href="#" class="js-submenu-toggle chat-toggle">
+                        <span class="svicon-chat" aria-hidden="true"></span>
+                        <img width="30px" height="30" src="images/chat.svg" alt="search" title=" Search">
+                        <span class="sr-only">Chat</span>
+                    </a>
+                </li>
+            </ul>
+         </nav>
+    </header>
+    <div id='main'>
+        <div class="row">
+            <div class="col-sm-2 col-md-1"></div>
+            <div class="col-sm-8 col-md-10">
+                <div class="heading">
+                    <p style="text-align: center;color: #fff;"><b>Wir kündigen und wechseln für Sie Ihren Stromtarif!</b><br>
+                       <span>Wählen Sie Ihren besten Stromtarif und beauftragen Sie uns noch heute mit dem kostonfreien Wechsel.</span> 
+                    </p>
+                   <!-- <div class="whiteoverlap"></div>--> 
+                </div>
+                
+            </div>
+            <div class="col-sm-2 col-md-1"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <div class="main-sidebar"> 
+                        <div class="subsidebar" data-offset="" id="subsidebar">
+                            <div class="sidebar">
+                                <div id="info" class="info">
+                                        <p>Ihr Verbrauch(KWh):<b style="float: right;color: #36505b;">2500</b><br>
+                                        Ihre Postleitzahl:<b style="float: right;color: #36505b;">01067</b><br>
+                                        Vergl.-Anbieter:<b style="float: right;color: #36505b;">DREWAG</b><br>
+                                        Vergl.-Tarif:<b style="float: right;color: #36505b;">Grundversorung</b><br>
+                                        Sie sind:<b style="float: right;color: #36505b;">Privatkunde</b><br>
+                                        Vergl.-Preis:<b style="float: right;color: #36505b;">1.079,32 Euro</b></p>         
+                                </div>   
+                            </div>
+                                <form id="form1" style="display:none;padding: 0px 10px 0px 10px;" >
+                                    <div class="user-input-wrp">
+                                        <input type="text" id="" name="" value="2500" placeholder="Ihr Verbrauch (KWh):"style="padding-top: 20px;padding-left:25px;"> 
+                                        <span class="floating-label">Ihr Verbrauch (KWh):</span>
+                                    </div>
+                                    <p style="text-align: center;">oder Anzahl Personen</p>
+                                    <div class="user-input-wrp">
+                                        <input type="text" id="" name="" value="01067" placeholder="" style="padding-top: 20px;padding-left:25px;">
+                                    <span class="floating-label">Ihre Postleitzahl:</span>
+                                    </div>
+                                    <div class="user-input-wrp">
+                                        <span class="floating-label" style="top: 0px;font-size: 16px;opacity: 1; color: #98a2a6;" style="padding-top: 20px;padding-left:25px;">Vergleichanbieter:</span>
+                                        <select id="Vergleichanbieter" name="">
+                                            <option value="Vergleichanbieter">--</option>
+                                            <option value="canada">DREWAG</option>
+                                            <option value="usa">ABC</option>
+                                          </select>
+                                    </div><br>
+                                    <div class="user-input-wrp">
+                                        <span class="floating-label" style="top: 0px;font-size: 16px;opacity: 1; color: #98a2a6;" style="padding-top: 20px;padding-left:25px;"> Vergleichtarif:</span>
+                                        <select id="Vergleichtarif" name="">
+                                            <option value="Vergleichtarif">--</option>
+                                            <option value="Vergleichtarif">Vergleichtarif</option>
+                                            <option value="canada">Grundversorgung</option>
+                                          </select>
+                                    </div><br>
+                                    <div class="user-input-wrp">
+                                        <span class="floating-label" style="top: 0px;font-size: 16px;opacity: 1; color: #98a2a6;" style="padding-top: 20px;padding-left:25px;">- Bitte wahlen: -</span>
+                                        <select id="country" name="country">
+                                            <option value="bitte wahlen">--</option>
+                                            <option value="canada">Private</option>
+                                            <option value="usa">Gewerbekunde</option>
+                                          </select>
+                                    </div>
+                                    <div class="user-input-wrp">
+                                        <input type="text" id="" name="" value="1.079,32 Euro" placeholder="Vergleichpreis:"style="padding-top: 20px;padding-left:25px;"> <br>
+                                        <span class="floating-label">Vergleichpreis:</span>
+                                    </div>
+                                   
+
+                                </form> 
+                            <div>
+                            <input type="button" id="anpassbtn" class="anpass-btn" value="Anpassen" onclick="myForm()">
+                            <input type="button" id="anpassbtn-mobile" class="anpass-btn" value="nue vergleichen" onclick="myAction()">
+                           
+                        </div>
+                            <div class="hinweis" id="hinweis">
+                            <p> 
+                                Hinweis:<br>Grundversorungstarif voreingestellt.Sie können Ihren Vergleichstarif im Filter jederzeit anpassen.In der Grundversorgung wird Ihnen gesetzlich 
+                                eine Kündigungsfirst von 2 Wochen garantiert,zurdem kann es im Laufe der Ver-gleichstarife kommen.In diesem Fall ändert sich auch die angegebene Preisersparnis.
+                            </p>
+                            </div>
+                            <div class="hinweis-mobile" id="hinweis-mobile"> 
+                               
+                                <p class="grundhin"> Hinweis:<br>Grundversorungstarif voreingestellt.</p>
+                                <button  id="edit" class="anpass-btn-mobile" value="" onclick="myForm2()" style="float: right;"> <i class="fa fa-pencil"></i></button>
+                                </div>
+                        </div>
+                       
+                        <div class="filter" id="myfilter">
+                            <p>Preisgarantie ab <i class="fa fa-question-circle-o" style="font-size:18px;color:#4CAF50;float: right;"></i></p>
+                            <input type="button" class="Preisgarantie" value="egal">
+                            <input type="button" class="Preisgarantie" value="3 Monate">
+                            <input type="button" class="Preisgarantie" value="6 Monate">
+                            <input type="button" class="Preisgarantie" value="12 Monate"><br><br>
+                            <p>Laufzeit bis <i class="fa fa-question-circle-o" style="font-size:18px;color:#4CAF50;float: right;"></i></p>
+                            <input type="button" class="Laufzeit" value="egal">
+                            <input type="button" class="Laufzeit" value="3 Monate">
+                            <input type="button" class="Laufzeit" value="6 Monate">
+                            <input type="button" class="Laufzeit" value="12 Monate">
+                            <input type="button" class="Laufzeit" value="24 Monate"><br><br>
+                            <p>Vertragsverlängerung bis <i class="fa fa-question-circle-o" style="font-size:18px;color:#4CAF50;float: right;"></i></p>
+                            <input type="button" class="Vertrags" value="egal">
+                            <input type="button" class="Vertrags" value="3 Monate">
+                            <input type="button" class="Vertrags" value="6 Monate">
+                            <input type="button" class="Vertrags" value="12 Monate"><br><br>
+                            <p>Kündigungsfirst bis <i class="fa fa-question-circle-o" style="font-size:18px;color:#4CAF50;float: right;"></i></p>
+                            <input type="button"is class="Kündigung" value="egal">
+                            <input type="button" class="Kündigung" value="1 Monat">
+                            <input type="button" class="Kündigung" value="6 Wochen">
+                            <input type="button" class="Kündigung" value="2 Monate">
+                            <input type="button" class="Kündigung" value="3 Monate"><br><br>
+                            <p>Tarifoptionen <i class="fa fa-caret-down" onclick="myTarif()" style="font-size:18px;color:#4CAF50;margin-left:145px;"></i> </p>
+                            <div id="drptarif" class="drptarif" style="display: none;font-weight: 400;font-size: 16px;">
+                                <label><input type="checkbox">&nbsp;&nbsp;&nbsp; ohne Pakettarife</label><br>
+                                <label><input type="checkbox"> &nbsp;&nbsp;&nbsp;ohne Mindestverbrauch</label><br>
+                                <label><input type="checkbox"> &nbsp;&nbsp;&nbsp;ohne Neukundenbonus</label><br>
+                                <label><input type="checkbox"> &nbsp;&nbsp;&nbsp;Nue Oskostrom</label><br>
+                                <label><input type="checkbox"> &nbsp;&nbsp;&nbsp;Stiftung Warentest</label><br>
+                                <label><input type="checkbox"> &nbsp;&nbsp;&nbsp;alle Tarife anzeigen</label><br>
+                                <label><input type="checkbox"> &nbsp;&nbsp;&nbsp;ohne Onlinetarife</label><br>
+                            </div>
+                            <input type="button" id="filter-btn" class="filter-btn" value="Filter anwenden" onclick="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-9"> 
+                    <div class="content">
+                        <div class="row" id="hilfe">
+                            <div class="col-md-5 col-12">
+                                <a class="sublink">Hier helfen wir ihnen bei der Wahl des richtigen Stromtarifs</a>
+                            </div>
+                            <p class="vl"></p>
+                            <div class="col-md-4 col-12" >
+                                <a class="sublink">Stromvergleich.de-Richtlinien für Stromtarife</a>
+                            </div>
+                            <div class="col-md col-12" id="btnalign">
+                                <button type="button" class="filtern" onclick="myFilter()" id="filtern">Filtern</button>
+                                <button type="button" class="drpbtn"><i class="fa fa-upload"></i></button>
+                                <button type="button" class="drpbtn"><i class="fa fa-heart-o"></i></button>
+                                <div class="dropdown">
+                                    <button type="button" onclick="myFunction()" class="drpbtn"><i class="fa fa-sort"></i></button>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <p>Sortierung nach:</p>
+                                        <a href="">0 Monatlich</a>
+                                        <a href="">Bester kw/h Preis</a>
+                                        <a href="">Bester Abschlag</a>
+                                        <a href="">Bester Endpreis</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card text-dark">
+                            <div class="card-body">
+                                <p class="cd-title">Persönaliche Tarifempfehlung</p><br>
+                                <div class="row"> 
+                                    <div class="col-md-3">  </div>
+                                    <div class="col-md-5 col-12">
+                                        <p class="subtitle" id="subinfo"><b>Mehr Auswahl vom Berater</b><br>
+                                        12 oder 24 Monate Laufzeit mit voller Preisgarantie<br> von großen Anbieten.Keine Onlinetarife.</p>
+                                        
+                                    </div>
+                                    <p class="vl"></p>
+                                    <div class="col-md col-12" style="text-align: center;">
+                                        <span style="color: #4B6069;font-size: 30px;">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </span>
+                                        <div><input type="button" class="termin-btn" value="Termin vereinbaren"></div>
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="card  text-dark">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3 col-12">
+                                        <p style="color: #4CAF50;">1.</p>
+                                        <p class="cd-title">Vattenfall</p><br>
+                                        <p class="subtext">Natur 12 Strom</p>
+                                        <img width="auto" height="30" src="images/ewb_logo.svg" alt="ewb" title="ewb" class="logo">
+                                    </div>
+                                    <div class="col-md-5 col-12" id`="boxcontent">
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star" style="font-size: 12px;"></i>
+                                        <div class="rate">
+                                            <button  class="ratebtn"><i class="fa fa-thumbs-up" aria-hidden="true" style="font-size: 22px;"></i>&nbsp;<b>92%</b><br>Weiterempfehlung</button>
+                                            <button  class="status"><b><i class="fa fa-leaf"></i><br>NormalStrom</b></button>
+                                        </div>
+                                    
+                                        <p class="text">
+                                            <i class="fa fa-info-circle" style="color:#4CAF50;"></i> &nbsp;&nbsp;<b>Abschlag ca. 118€</b><br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;cursor: pointer;">
+                                            <span class="texttool">Das Angebot umfasst eine Preisgarantie für alle Preiskomponenten.  Gemäß unseren Verbraucherschutz-Richtlinien können während der 
+                                                Dauer der Preisgarantie nur Änderungen aufgrund der
+                                                Mehrwertsteuer, der Strom- bzw. Erdgassteuer sowie
+                                                eventuell neu eingeführter gesetzlicher Abgaben
+                                                weitergegeben werden.<br><br>
+                                                
+                                                Zudem können Preisanpassungen während der Dauer
+                                                der Preisgarantie aufgrund gesetzlicher Regelung
+                                                erfolgen, insbesondere steht den Energieversorgern für
+                                                die Dauer der Ausrufung der Alarm-oder Notfallstufe
+                                                gem. § 24 Abs. 1 EnSiG ein Preisanpassungsrecht zu.
+                                                </span>
+                                        </i>&nbsp;&nbsp;12 Monate Preisgarantie<br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Vertragslaufzeit<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Onlinetarif<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Kosten fur moderne Messeinrichtung<br>
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:#4B6069;"></i>&nbsp;&nbsp;Mindestabnahmemenge fur Bonus</p>
+                                        <input type="button" class="infobtn" value="inkl. 125€ Sofortbonus" style="margin-top:0">
+                                        <img width="50" height="60" src="images/ewb_logo.svg" style="float: right;" alt="" title="">
+                                        <input type="button" class="infobtn" value="inkl. 212€ Neukundenbonus">
+                                    
+                                    </div>
+                                
+                                    <p class="vl"></p>
+                                    <div class="col-md col-12" style="text-align: center;padding-top: 30px;" id="priceinfo">
+                                        <p class="panel-title">90,09 €</p><br>
+                                        <p  class="panel-text">0 pro Monat im 1. Jahr<br><b>50,77 Ct/kWh ,</b>12,40 €/Monat</p>
+                                        <input type="button" class="termin-btn" value="Tarif wählen"><br>
+                                        <button  class="tarifdetail"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>Tarifdetails</button>
+                                        <button  class="tarifdetail"><i class="fa fa-check-circle" aria-hidden="true"></i> Marken</button>
+                                        <p  class="panel-text" style="font-size:12px;padding-top: 50px;">1.8081,05 € Endpreis inklusive Steuern und aller Abgeben im 1. Jahr</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card text-dark">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3 col-12">
+                                        <p style="color: #4CAF50;">2.</p>
+                                        <p class="cd-title">ElVeBe GmbH</p><br>
+                                        <p class="subtext">ELEKTRIZITÄT BERLIN</p>
+                                        <img width="auto" height="30" src="images/ewb_logo.svg" alt="ewb" title="ewb" class="logo">
+                                    </div>
+                                    <div class="col-md-5 col-12">
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star" style="font-size: 12px;"></i>
+                                        <div class="rate">
+                                            <button  class="ratebtn"><i class="fa fa-thumbs-up" aria-hidden="true" style="font-size: 22px;"></i>&nbsp;<b>92%</b><br>Weiterempfehlung</button>
+                                            <button  class="status"><b><i class="fa fa-leaf"></i><br>Öktstrom</b></button>
+                                        </div>
+                                        <p class="text">
+                                            <i class="fa fa-info-circle" style="color:#4CAF50;"></i> &nbsp;&nbsp;<b>Abschlag ca. 118€</b><br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Preisgarantie<br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Vertragslaufzeit<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Onlinetarif<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Kosten fur moderne Messeinrichtung<br>
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:#4B6069;"></i>&nbsp;&nbsp;Mindestabnahmemenge fur Bonus</p>
+                                        <input type="button" class="infobtn" value="inkl. 125€ Sofortbonus" style="margin-top:0"><br>
+                                        <input type="button" class="infobtn" value="inkl. 212€ Neukundenbonus">
+                                    </div>
+                                    <p class="vl"></p>
+                                    <div class="col-md col-12" style="text-align: center;padding-top: 30px;" id="priceinfo">
+                                        <p class="panel-title">90,09 €</p><br>
+                                        <p  class="panel-text">0 pro Monat im 1. Jahr<br><b>50,77 Ct/kWh ,</b>12,40 €/Monat</p>
+                                        <input type="button" class="termin-btn" value="Tarif wählen"><br>
+                                        <button  class="tarifdetail"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>Tarifdetails</button>
+                                        <button  class="tarifdetail"><i class="fa fa-check-circle" aria-hidden="true"></i> Marken</button>
+                                        <p  class="panel-text" style="font-size:12px;padding-top: 50px;">1.8081,05 € Endpreis inklusive Steuern und aller Abgeben im 1. Jahr</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card text-dark">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3 col-12">
+                                        <p style="color: #4CAF50;">3.</p>
+                                        <p class="cd-title">E WIE EINFACH</p><br>
+                                        <p class="subtext">Grün & Günstig Strom</p>
+                                        <img width="auto" height="30" src="images/ewie_logo.png" alt="ewb" title="ewb" class="logo">
+                                    </div>
+                                    <div class="col-md-5 col-12">
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star" style="font-size: 12px;"></i>
+                                        <div class="rate">
+                                            <button  class="ratebtn"><i class="fa fa-thumbs-up" aria-hidden="true" style="font-size: 22px;"></i>&nbsp;<b>92%</b><br>Weiterempfehlung</button>
+                                            <button  class="status"><b><i class="fa fa-leaf"></i><br>Öktstrom</b></button>
+                                        </div>
+                                        <p class="text">
+                                            <i class="fa fa-info-circle" style="color:#4CAF50;"></i> &nbsp;&nbsp;<b>Abschlag ca. 118€</b><br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Preisgarantie<br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Vertragslaufzeit<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Onlinetarif<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Kosten fur moderne Messeinrichtung<br>
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:#4B6069;"></i>&nbsp;&nbsp;Mindestabnahmemenge fur Bonus</p>
+                                        <input type="button" class="infobtn" value="inkl. 125€ Sofortbonus" style="margin-top:0"><br>
+                                        <input type="button" class="infobtn" value="inkl. 212€ Neukundenbonus">
+                                    </div>
+                                    <p class="vl"></p>
+                                    <div class="col-md col-12" style="text-align: center;padding-top: 30px;">
+                                        <p class="panel-title">90,09 €</p><br>
+                                        <p  class="panel-text">0 pro Monat im 1. Jahr<br><b>50,77 Ct/kWh ,</b>12,40 €/Monat</p>
+                                        <input type="button" class="termin-btn" value="Tarif wählen"><br>
+                                        <button  class="tarifdetail"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>Tarifdetails</button>
+                                        <button  class="tarifdetail"><i class="fa fa-check-circle" aria-hidden="true"></i> Marken</button>
+                                        <p  class="panel-text" style="font-size:12px;padding-top: 50px;">1.8081,05 € Endpreis inklusive Steuern und aller Abgeben im 1. Jahr</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card text-dark">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3 col-12">
+                                        <p style="color: #4CAF50;">4.</p>
+                                        <p class="cd-title">ElVeBe GmbH</p><br>
+                                        <p class="subtext">ELEKTRIZITÄT BERLIN</p>
+                                        <img width="auto" height="30" src="images/ewb_logo.svg" alt="ewb" title="ewb" class="logo">
+                                    </div>
+                                    <div class="col-md-5 col-12">
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star checked" style="font-size: 12px;"></i>
+                                        <i class="fa fa-star" style="font-size: 12px;"></i>
+                                        <div class="rate">
+                                            <button  class="ratebtn"><i class="fa fa-thumbs-up" aria-hidden="true" style="font-size: 22px;"></i>&nbsp;<b>92%</b><br>Weiterempfehlung</button>
+                                            <button  class="status"><b><i class="fa fa-leaf"></i><br>Normalstrom</b></button>
+                                        </div>
+                                        <p class="text">
+                                            <i class="fa fa-info-circle" style="color:#4CAF50;"></i> &nbsp;&nbsp;<b>Abschlag ca. 118€</b><br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Preisgarantie<br>
+                                        <i class="fa fa-info-circle" style="color:#4CAF50;"></i>&nbsp;&nbsp;12 Monate Vertragslaufzeit<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Onlinetarif<br>
+                                        <i class="fa fa-check-circle-o" style="color:#4CAF50;"></i>&nbsp;&nbsp;Kosten fur moderne Messeinrichtung<br>
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:#4B6069;"></i>&nbsp;&nbsp;Mindestabnahmemenge fur Bonus</p>
+                                        <input type="button" class="infobtn" value="inkl. 125€ Sofortbonus" style="margin-top:0"><br>
+                                        <input type="button" class="infobtn" value="inkl. 212€ Neukundenbonus">
+                                    </div>
+                                    <p class="vl"></p>
+                                    <div class="col-md col-12" style="text-align: center;padding-top: 30px;">
+                                        <p class="panel-title">90,09 €</p><br>
+                                        <p  class="panel-text">0 pro Monat im 1. Jahr<br><b>50,77 Ct/kWh ,</b>12,40 €/Monat</p>
+                                        <input type="button" class="termin-btn" value="Tarif wählen"><br>
+                                        <button  class="tarifdetail"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>Tarifdetails</button>
+                                        <button  class="tarifdetail"><i class="fa fa-check-circle" aria-hidden="true"></i> Marken</button>
+                                        <p  class="panel-text" style="font-size:12px;padding-top: 50px;">1.8081,05 € Endpreis inklusive Steuern und aller Abgeben im 1. Jahr</p>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                
+                  
+        </div>
+    </div> 
+
+    <script>
+        function myTarif() {
+            var x = document.getElementById("drptarif");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }                
+        function myFilter() {
+            var f = document.getElementById("myfilter");
+            var s = document.getElementById("subsidebar");
+            var c =  document.getElementById("filtern");
+            if (f.style.display === "none") {
+                f.style.display = "block";
+                s.style.display="none";
+                c.style.color="white";
+                c.style.backgroundColor = "#455A64";
+            } else {
+                f.style.display = "none";
+                s.style.display="block";
+                c.style.color="#4CAF50";
+                c.style.backgroundColor = "white";
+            }
+        }
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show"); 
+        }   
+        function myForm(){
+            
+            var x = document.getElementById("form1");
+            var z=document.getElementById("info");
+            var y=document.getElementById("anpassbtn");
+            
+            if (y.value=="Anpassen") y.value = "nue vergleichen";
+                else y.value ="Anpassen";
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                z.style.display="none";
+                y.style.backgroundColor="#FFA000";
+            } else {
+                x.style.display = "none";
+                z.style.display="block";
+                y.style.backgroundColor="#4CAF50";
+            }
+        }
+        function myForm2(){
+            var x = document.getElementById("form1");
+            var i=document.getElementById("info");
+            var h = document.getElementById("hinweis");
+            var hm= document.getElementById("hinweis-mobile");
+            var y=document.getElementById("anpassbtn-mobile");
+
+            if (window.innerWidth <= 767) {
+                    if (x.style.display === "none") {
+                    x.style.display = "block";
+                    h.style.display= "block";
+                    y.style.display = "block";
+                    hm.style.display = "none";
+                    i.style.display="none";
+                    y.style.backgroundColor="#FFA000";
+                
+                } else {
+                    x.style.display = "none";
+                } 
+            }
+                        
+        }
+        function myAction(){
+ 
+            var x = document.getElementById("form1");
+            var z=document.getElementById("info");
+            var h = document.getElementById("hinweis");
+            var hm= document.getElementById("hinweis-mobile");
+            var y=document.getElementById("anpassbtn-mobile");
+            
+            z.style.display="block";
+            h.style.display="none";
+            hm.style.display="block";
+            y.style.display="none";
+            x.style.display="none";
+           
+        }
+    </script>
